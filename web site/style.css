@@ -1,0 +1,93 @@
+body {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(2.jpg.jpg);
+   background-position: center;
+   background-size: cover;
+   font-size: 20px;
+}
+header {
+    
+    background: rgb(220,191,215);
+background: linear-gradient(180deg, rgba(220,191,215,1) 17%, rgba(129,114,129,1) 63%);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li {
+    margin-right: 20px;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.content {
+    padding: 60px 0;
+    text-align: center;
+}
+.content h2 {
+    color:floralwhite;
+}
+.content p {
+    color: floralwhite;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgb(220,191,215);
+background: linear-gradient(180deg, rgba(220,191,215,1) 17%, rgba(129,114,129,1) 63%);
+    color: #fff;
+}
+button 
+{
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 35px;
+    margin: 20px;
+    text-align: center;
+    color: rgb(225, 225, 225);
+    cursor: pointer;
+    font-weight: 600;
+    background: rgb(220,191,215);
+background: linear-gradient(180deg, rgba(220,191,215,1) 17%, rgba(129,114,129,1) 63%);
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+}
+a:hover
+{
+color: rgb(108, 14, 14);
+transition: 1s;
+}
+.logo
+{
+    cursor: pointer;
+    border-radius: 50%;
+}
+table
+{
+    margin: auto;
+    padding: 0;
+    color: #fff;
+}
